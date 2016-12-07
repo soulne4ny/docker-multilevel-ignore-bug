@@ -1,0 +1,8 @@
+version: '2.0'
+services:
+    docker-ignore:
+        image: docker-ignore
+        build:
+            context: ./docker-ignore
+            dockerfile: docker/Dockerfile.test
+
